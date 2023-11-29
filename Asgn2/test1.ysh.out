@@ -1,0 +1,12 @@
+./yshell build May  2 2022 16:28:59
+% prompt my-prompt:
+my-prompt:  ls /
+/:
+     1       2  ./
+     1       2  ../
+my-prompt:  ls
+/:
+     1       2  ./
+     1       2  ../
+my-prompt:  cat /dev/null
+dev null

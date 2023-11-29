@@ -1,0 +1,6 @@
+./yshell build May  2 2022 16:28:59
+% mkdir foo
+% mkdir foo/bar
+% mkdir foo/bar/baz
+% make foo/bar/baz/file with this foo bar baz in the file
+% mkdir this/mkdir/should/error/out

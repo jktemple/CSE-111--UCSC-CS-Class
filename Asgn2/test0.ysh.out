@@ -1,0 +1,8 @@
+./yshell build May  2 2022 16:28:59
+% pwd
+/
+% echo Hello World
+Hello World
+% echo This is a very simple test.
+This is a very simple test.
+% 

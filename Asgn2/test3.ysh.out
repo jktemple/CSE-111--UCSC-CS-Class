@@ -1,0 +1,52 @@
+./yshell build May  2 2022 16:28:59
+% mkdir dir
+% cd dir
+% mkdir dir2
+% mkdir dir3
+% cd dir3
+% pwd
+/dir3
+% make file with stuff
+% make another file with stuff ?????? /*$#@!#(){}[]
+% cat another
+file with stuff ?????? /*$#@!#(){}[]
+% cat fle 
+file does not exits
+% echo what happened?  the previous command no such file
+what happened? the previous command no such file
+% prompt ysh:
+ysh:  ls .
+/dir/dir3/:
+     4       4  ./
+     2       4  ../
+     6      32  another
+     5       9  file
+ysh:  ls ..
+/:
+     1       3  ./
+     1       3  ../
+     2       4  dir/
+ysh:  lsr /
+/:
+     1       3  ./
+     1       3  ../
+     2       4  dir/
+/dir/:
+     2       4  ./
+     1       3  ../
+     3       2  dir2/
+     4       4  dir3/
+/dir/dir2/:
+     3       2  ./
+     2       4  ../
+/dir/dir3/:
+     4       4  ./
+     2       4  ../
+     6      32  another
+     5       9  file
+ysh:  # Note the error in fle above, it may error out at that
+ysh:  # point or print another.
+ysh:  # But the command after the failed cat must be executed.
+ysh:  # $Id: test3.ysh,v 1.3 2022-04-22 10:41:38-07 - - $
+ysh:  ^D
+yshell: exit(0)

@@ -1,0 +1,20 @@
+src/radix.cc: In constructor ‘RadixServer::RadixServer(int, unsigned int)’:
+src/radix.cc:11:9: warning: unused variable ‘ununsed’ [-Wunused-variable]
+   11 |     int ununsed;  // to fail compile warning test, remove
+      |         ^~~~~~~
+src/radix.cc:10:36: warning: unused parameter ‘port’ [-Wunused-parameter]
+   10 | RadixServer::RadixServer(const int port, const unsigned int cores) {
+      |                          ~~~~~~~~~~^~~~
+src/radix.cc:10:61: warning: unused parameter ‘cores’ [-Wunused-parameter]
+   10 | RadixServer::RadixServer(const int port, const unsigned int cores) {
+      |                                          ~~~~~~~~~~~~~~~~~~~^~~~~
+src/radix.cc: In member function ‘void RadixClient::msd(const char*, int, std::vector<std::reference_wrapper<std::vector<unsigned int> > >&)’:
+src/radix.cc:16:17: warning: unused parameter ‘hostname’ [-Wunused-parameter]
+   16 |     const char *hostname,
+      |     ~~~~~~~~~~~~^~~~~~~~
+src/radix.cc:17:15: warning: unused parameter ‘port’ [-Wunused-parameter]
+   17 |     const int port,
+      |     ~~~~~~~~~~^~~~
+src/radix.cc:18:69: warning: unused parameter ‘lists’ [-Wunused-parameter]
+   18 |     std::vector<std::reference_wrapper<std::vector<unsigned int>>> &lists) {
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~

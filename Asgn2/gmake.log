@@ -1,0 +1,7 @@
+checksource commands.cpp
+checksource: TOTAL COMPLAINTS: 0
+cpplint.py.perl commands.cpp
+Done processing commands.cpp
+Total errors found: 0
+g++ -std=gnu++20 -fdiagnostics-color=never -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -g -O0 -std=gnu++20 -fdiagnostics-color=never -c commands.cpp
+g++ -std=gnu++20 -fdiagnostics-color=never -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -g -O0 -std=gnu++20 -fdiagnostics-color=never -o yshell commands.o debug.o file_sys.o util.o main.o

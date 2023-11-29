@@ -1,0 +1,11 @@
+prompt my-prompt:
+ls /
+ls
+cat /dev/null
+exit 5
+echo THIS OUTPUT LINE SHOULD NOT BE SEEN SINCE IT IS AFTER EXIT
+# The prompt should change.
+# ls / and ls should produce the same output
+# The exit status should be reported as 5
+# $Id: test1.ysh,v 1.3 2022-04-22 10:44:36-07 - - $
+foobar command is also after exit

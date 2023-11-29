@@ -1,0 +1,48 @@
+
+Evaluating: 100 / 11:
+        divisor       powerof2
+             11              1
+             22              2
+             44              4
+             88              8
+            176             16
+        divisor       powerof2       quotient      remainder
+            176             16              0            100
+             88              8              0            100
+             44              4              8             12
+             22              2              8             12
+             11              1              8             12
+              5              0              9              1
+Result: 100 / 11 = 9 (rem 1)
+
+Evaluating: 329 / 23:
+        divisor       powerof2
+             23              1
+             46              2
+             92              4
+            184              8
+            368             16
+        divisor       powerof2       quotient      remainder
+            368             16              0            329
+            184              8              0            329
+             92              4              8            145
+             46              2             12             53
+             23              1             14              7
+             11              0             14              7
+Result: 329 / 23 = 14 (rem 7)
+
+Evaluating: 963 / 71:
+        divisor       powerof2
+             71              1
+            142              2
+            284              4
+            568              8
+           1136             16
+        divisor       powerof2       quotient      remainder
+           1136             16              0            963
+            568              8              0            963
+            284              4              8            395
+            142              2             12            111
+             71              1             12            111
+             35              0             13             40
+Result: 963 / 71 = 13 (rem 40)

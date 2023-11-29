@@ -1,0 +1,19 @@
+mkdir dir
+cd dir
+mkdir dir2
+mkdir dir3
+cd dir3
+pwd
+make file with stuff
+make another file with stuff ?????? /*$#@!#(){}[]
+cat another
+cat fle 
+echo what happened?  the previous command no such file
+prompt ysh:
+ls .
+ls ..
+lsr /
+# Note the error in fle above, it may error out at that
+# point or print another.
+# But the command after the failed cat must be executed.
+# $Id: test3.ysh,v 1.3 2022-04-22 10:41:38-07 - - $

@@ -1,0 +1,11 @@
+Numbers: 500,000 Lists: 4 Cores: 24
+Generating 2,000,000 random numbers... 
+Generating expected results... 
+Generate time: 1.6302 seconds
+Running ParallelRadixSort::msd() with 24 cores
+Elapsed time: 2.141984 seconds
+Comparing results... 
+List 0 PASS
+List 1 PASS
+List 2 PASS
+List 3 PASS
